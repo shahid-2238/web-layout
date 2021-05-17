@@ -1,0 +1,494 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 20px;   
+}
+div{
+    display: block;
+}
+.logo {
+    width: 20%;
+    float: left;
+    margin-bottom: 20px;
+}
+.logo img {
+    width: 70px;
+    margin-right: 10px; 
+    float: left;
+}
+b{
+    font-weight: bold;
+}
+.logo h4 {
+    margin-top: 10px;
+    float: left;
+    text-align: right;
+}
+.menu{
+    width: 80%;
+    float: left;
+}
+nav {
+	width: 50%;
+	float: left;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.icons {
+    width: 30%;
+    float: left;
+}
+.icons ul {
+    list-style: none;
+    text-align: left;
+}
+.icons ul li {
+    display: inline-block;
+    margin: 5px 0px;
+    padding: 0px 5px;
+    font-size: 13px;
+}
+.icons ul li a {
+    text-decoration: none;
+}
+.fa{    
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}    
+.fa.fa-facebook {
+    background: blue;
+    color: white;
+    padding: 5px 10px;
+} 
+.fa.fa-twitter {
+    background: #0777E9;
+    color: white;
+    padding: 5px 10px;
+}
+.fa.fa-linkedin {
+    background: #0678B6;
+    color: white;
+    padding: 5px 10px;
+}
+.fa.fa-google-plus {
+    background: red;
+    color: white;
+    padding: 5px 10px;
+}
+section{
+    display: block;
+}
+.banner-img {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-content {
+    display: block;
+    margin: 0px 470px 400px 100px;
+    padding: 98px 98px 129px 98px;
+    background-color: rgba(255,255,255,0.5);
+    margin-bottom: 0px;
+}
+.banner-content h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #044040b8;
+    padding-top: 30px;
+}
+.banner-content p {
+    text-align: center;
+    color: black;
+}
+.btn {
+    padding: 8px;
+    margin-right: 10px;
+    background-color: #5fa21c;
+    color: white;
+    border-radius: 1.2em;
+    border: none;
+}
+.btn1 {
+    padding: 8px;
+    background-color: #1c3ca2;
+    color: white;
+    border-radius: 1.2em;
+    border: none;
+}
+.text {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.text1 {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.fa.fa-check-circle {
+    background: #095169;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 7rem;
+    font-size: 50px;
+}
+h5 {
+    font-size: 20px;
+}
+.btn2 {
+    padding: 5px 10px;
+    background: #9FD86B;
+    color: white;
+    border: none;
+}
+.text2 {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.fa.fa-map-marker {
+    background: #059B9A;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 7rem;
+    font-size: 50px;
+}
+.text3 {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.fa.fa-credit-card-alt {
+    background: #53BA83;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 7rem;
+    font-size: 50px;
+}
+.text4 {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.fa.fa-user-plus {
+    background: #9FD86B;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 7rem;
+    font-size: 50px;
+}
+.invest-money {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.invest-money1 {
+    width: 40%;
+    float: left;
+    display: block;
+    background-color: rgb(183, 204, 211);
+    border-radius: 4px;
+    margin-left: 65px;
+}
+.invest-money3 {
+    width: 20%;
+    float: left;
+}
+.invest-money2 {
+    width: 40%;
+    float: left;
+    display: block;
+    background-color: #B4E1E1;
+    border-radius: 4px;
+    margin-left: 105px;
+}
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Krona One', sans-serif;
+}
+.invest-money2 p {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+}
+.invest-money1 p {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+}
+.btn3 {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #9FD86B;
+    color: white;
+    border-radius: 0.2em;
+    border: none;
+}
+.btn4 {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #052D3A;
+    color: white;
+    border-radius: 0.2em;
+    border: none;
+}
+.fa.fa-check-circle-o{
+    color: green;
+    margin-right: 20px;
+}
+.blog {
+    color: black;
+}    
+.blogg {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.blogg1 {
+    width: 50%;
+    float: left;
+    display: block;
+}
+.blogg2 {
+    width: 40%;
+    float: left;
+    display: block;
+    margin-left: 35px;
+}
+.blogg1 h2 {
+    color: #095169;
+}
+.blogg1 p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.blogg2 h2 {
+    color: #095169;
+}
+.blogg2 p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.list {
+    width: 90%;
+    float: left;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.list1 {
+    background: rgb(182, 180, 180);
+    float: center;
+}
+.list1 p {
+    text-align: center;
+    padding-top: 15px;
+    color: black;
+}
+.star {
+    width: 100%;
+    float: left;
+}
+.star1 {
+    width: 30%;
+    float: left;
+    display: block;
+}
+.star2 {
+    width: 40%;
+    float: left;
+    display: block;
+    padding-left: 350px;
+}
+.star2 h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.star2 p {
+    font-size: 14px;
+    text-align: center;
+}
+.star2 ul {
+    list-style: none;
+    margin-left: 150px;
+    margin-bottom: 5px;
+}
+.star2 ul li {
+    margin: 0 auto;
+    display: inline-block;
+}
+.star3 {
+    width: 30%;
+    float: left;
+    display: block;
+}
+.fa.fa-star-o {
+    color: rgb(15, 170, 98);
+}
+.fa.fa-star {
+    background-color: rgb(38 47 134);
+    font-size: 15px;
+    padding: 10px;
+}
+.fa.fa-star-half {
+    background-color: grey;
+    font-size: 15px;
+    padding: 10px;
+}
+.mention {
+    width: 90%;
+    float: left;
+    background-color: grey;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.mention1 {
+    width: 18%;
+    float: left;
+}
+.mention1 img {
+    width: 150px;
+    background-color: grey;
+    margin-left: 70px;
+    display: block;
+    margin-bottom: 10px;
+}
+.mention1 p {
+    text-align: center;
+    margin-left: 60px;
+    font-size: 18px;
+    font-family: 'Zen Dots', cursive;
+    margin-bottom: 15px;
+}
+.mention2 {
+    width: 18%;
+    float: left;
+}
+.mention2 img {
+    width: 150px;
+    margin-left: 60px;
+    display: block;
+    margin-bottom: 10px;
+}
+.mention2 p {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Zen Dots', cursive;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.mention3{
+    width: 18%;
+    float: left;
+}
+.mention3 img {
+    width: 150px;
+    background-color: grey;
+    margin-left: 70px;
+    display: block;
+    margin-bottom: 10px;
+}
+.mention3 p {
+    text-align: center;
+    margin-left: 60px;
+    font-size: 18px;
+    font-family: 'Zen Dots', cursive;
+    margin-bottom: 15px;
+}
+.mention4 {
+    width: 18%;
+    float: left;
+}
+.mention4 img {
+    width: 150px;
+    background-color: grey;
+    margin-left: 70px;
+    display: block;
+    margin-bottom: 10px;
+}
+.mention4 p {
+    text-align: center;
+    margin-left: 60px;
+    font-size: 18px;
+    font-family: 'Zen Dots', cursive;
+    margin-bottom: 15px;
+}
+.mention5 {
+    width: 18%;
+    float: left;
+}
+.mention5 img {
+    width: 150px;
+    background-color: grey;
+    margin-left: 70px;
+    display: block;
+    margin-bottom: 10px;
+}
+.mention5 p {
+    text-align: center;
+    margin-left: 60px;
+    font-size: 18px;
+    font-family: 'Zen Dots', cursive;
+    margin-bottom: 15px;
+}
+footer {
+    width: 90%;
+    float: left;
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.f1 {
+    width: 50%;
+    float: left;
+}
+.f1 ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+.f1 ul li {
+    text-align: center;
+    color: white;
+}
+.f2 {
+    width: 50%;
+    float: left;
+}
+.f2 ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+.f2 ul li {
+    text-align: center;
+    color: white;
+}
